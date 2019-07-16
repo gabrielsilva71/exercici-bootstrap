@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: "Raleway", Open Sans, sans-serif;
   font-weight: 200;
   font-size: 16px;
   line-height: 1.8;
@@ -29,15 +29,15 @@ a {
 
 h1, h2, h3, h4, h5 {
   color: #000;
-  font-family: "Playfair Display", times, serif; 
+  font-family: "Raleway", times, serif; 
 }
 
 .font-family-serif {
-  font-family: "Playfair Display", times, serif; 
+  font-family: "raleway", times, serif; 
 }
 
 .font-family-sans-serif {
-  font-family: "Roboto", arial, sans-serif; 
+  font-family: "Raleway", arial, sans-serif; 
 }
 
 .bg-light {
@@ -68,14 +68,16 @@ h1, h2, h3, h4, h5 {
   .btn.uppercase {
     text-transform: uppercase;
     font-size: 14px;
-    letter-spacing: .2em; }
+    letter-spacing: .2em; 
+}
 
 .btn, .form-control {
   outline: none;
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
   .btn:focus, .btn:active, .form-control:focus, .form-control:active {
-    outline: none; }
+    outline: none; 
+}
 
 .form-control {
   -webkit-box-shadow: none !important;
@@ -132,7 +134,7 @@ textarea.form-control {
     color: #fff;
     font-weight: bold;
     line-height: 1;
-    font-family: "Playfair Display", times, serif; }
+    font-family: "Raleway", times, serif; }
     @media (max-width: 991.98px) {
       .site-logo a {
         font-size: 27px; } }
@@ -152,7 +154,7 @@ textarea.form-control {
   .site-navbar nav {
     text-align: left; }
     .site-navbar nav .menu {
-      font-family: "Playfair Display", times, serif; }
+      font-family: "Raleway", times, serif; }
       .site-navbar nav .menu li a {
         color: #000;
         font-size: 40px;
@@ -169,7 +171,7 @@ textarea.form-control {
   .site-navbar .extra-info ul li a {
     color: #000; }
   .site-navbar .extra-info h3 {
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Raleway", arial, sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     letter-spacing: .2em;
@@ -189,7 +191,7 @@ textarea.form-control {
   width: 100%;
   position: relative; }
   .site-hero .heading {
-    font-family: "Playfair Display", times, serif;
+    font-family: "Raleway", times, serif;
     font-weight: bold; }
   .site-hero .scroll-down {
     position: absolute;
@@ -221,7 +223,7 @@ textarea.form-control {
   min-height: 700px; }
   .site-hero-inner .heading {
     font-size: 80px;
-    font-family: "Playfair Display", times, serif;
+    font-family: "Raleway", times, serif;
     color: #fff;
     line-height: 1;
     font-weight: bold; }
@@ -313,20 +315,29 @@ textarea.form-control {
     -ms-transform: rotate(-135deg);
     transform: rotate(-135deg); }
 
+.desconectate {
+  transition: all 0.3s ease-out;
+}
+.desconectate:hover {
+  transform: scale(1.1) translate(-3px);
+}
+
 .section {
   padding: 7em 0; }
   @media (max-width: 991.98px) {
     .section {
-      padding: 3em 0; } }
+      padding: 3em 0; } 
+}
 
 @media (max-width: 991.98px) {
   .lead {
-    font-size: 16px; } }
+    font-size: 16px; } 
+  }
 
 .visit-section .heading {
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Roboto", arial, sans-serif;
+  font-family: "Raleway", arial, sans-serif;
   color: #b3b3b3;
   letter-spacing: .2em;
   margin-bottom: 30px; }
@@ -347,7 +358,7 @@ textarea.form-control {
 
 .visit-section .reviews-star span {
   font-size: 18px;
-  color: #8ed1bc; }
+  color: #ffba5a; }
 
 .visit-section .reviews-count {
   color: #adb5bd;
@@ -355,7 +366,7 @@ textarea.form-control {
 
 .heading-serif, .heading, .testimonial-section .heading, .slider-section .heading, .blog-post-entry .heading {
   font-size: 60px;
-  font-family: "Playfair Display", times, serif;
+  font-family: "Raleway", times, serif;
   font-weight: 700; }
   @media (max-width: 991.98px) {
     .heading-serif, .heading, .testimonial-section .heading, .slider-section .heading, .blog-post-entry .heading {
@@ -689,7 +700,7 @@ textarea.form-control {
   .side-box .heading, .sidebar-search .heading {
     font-size: 18px;
     margin-bottom: 30px;
-    font-family: "Roboto", arial, sans-serif; }
+    font-family: "Raleway", arial, sans-serif; }
 
 .post-list li {
   margin-bottom: 20px; }
@@ -725,14 +736,14 @@ textarea.form-control {
     border-color: #343a40; }
 
 .contact-section .contact-info p {
-  font-family: "Playfair Display", times, serif;
+  font-family: "Raleway", times, serif;
   font-size: 30px;
   margin-bottom: 30px; }
   .contact-section .contact-info p .d-block {
     font-size: 14px;
     letter-spacing: .2em;
     font-weight: bold;
-    font-family: "Roboto", arial, sans-serif;
+    font-family: "Raleway", arial, sans-serif;
     text-transform: uppercase; }
 
 .post-categories li {
